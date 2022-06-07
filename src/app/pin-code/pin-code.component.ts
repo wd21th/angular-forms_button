@@ -28,4 +28,7 @@ export class PinCodeComponent implements OnInit {
     
   }
 
+
+  
+
 }
