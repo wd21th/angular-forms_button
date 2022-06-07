@@ -7,13 +7,15 @@ import { NameEditorComponent } from './name-editor/name-editor.component';
 import { ProfileEditorComponent } from './profile-editor/profile-editor.component';
 
 import {PinCodeComponent} from './pin-code/pin-code.component'
+import { JoinPipe } from './pin-code/join.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     NameEditorComponent,
     ProfileEditorComponent,
-    PinCodeComponent
+    PinCodeComponent,
+    JoinPipe
   ],
   imports: [
     BrowserModule,
