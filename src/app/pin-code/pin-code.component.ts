@@ -20,7 +20,7 @@ export class PinCodeComponent implements OnInit {
 
 
   add_digit(digit: string){
-    if(this.pin_code.length <= 4){
+    if(this.pin_code.length <= 3){
       this.pin_code.push(digit)
     }
 
